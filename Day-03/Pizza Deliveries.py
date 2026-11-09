@@ -31,3 +31,4 @@ if extra_cheese == "Y":
 else:
     bill += 0
 print(f"Your total bill is: ${bill}")
+input("Thank you, Please visit THE PIZZA SHOP! again. ")
