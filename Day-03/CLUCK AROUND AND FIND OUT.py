@@ -47,18 +47,32 @@ print(f"{user_name}! LET'S GET CLUCKED! 🐔💀")
 
 print("🤣🐔 ROUND 1: BREAKFAST OR BE BREAKFAST!")
 
-print("OH, LOOK! YOU'RE A CHICKEN.")
-print(f"{user_name}, NOT A COSTUME. NOT A DREAM. AN ACTUAL CLUCKING CHICKEN.")
 
-print("""Farmer Cletus just walked outside yelling, "IT'S FRY-DAY!" and he's carrying a bucket with your picture on it.""")
+print("\nOH, LOOK! YOU'RE A CHICKEN.")
+print(f"{user_name}, NOT A COSTUME. NOT A DREAM.")
 
-print(f"{user_name}, You have TWO options:")
+input("\nPRESS ENTER TO ACCEPT YOUR NEW REALITY... ")
 
-print("LEFT: Run into the cornfield. There's something moving in there, but at least it isn't carrying a deep fryer.")
-print("RIGHT: Head toward a suspicious little building advertising FREE CHICKEN DINNERS.")
+print("\nAN ACTUAL CLUCKING CHICKEN! 🐔")
 
-print("WHICH WAY ARE YOU HAULING YOUR FEATHERED CLUCKIN' CABOOSE? (LEFT/RIGHT)")
-choice1 = input("CHOOSE NOW!").strip().upper()
+print('\nFarmer Cletus just walked outside yelling, "IT\'S FRY-DAY!"')
+input("\nPRESS ENTER TO SEE WHY THAT'S A PROBLEM... ")
+
+print("\nAND HE'S CARRYING A BUCKET WITH YOUR PICTURE ON IT. 🍗")
+
+print(f"\n{user_name}, YOU HAVE TWO OPTIONS:\n")
+
+print("LEFT: Run into the cornfield.")
+print("There's something moving in there, but at least it isn't carrying a deep fryer.\n")
+
+print("RIGHT: Head toward a suspicious little building advertising FREE CHICKEN DINNERS.\n")
+
+print("WHICH WAY ARE YOU HAULING YOUR FEATHERED CLUCKIN' CABOOSE? (LEFT/RIGHT)\n")
+
+choice1 = input("CHOOSE NOW! ").strip().upper()
+while choice1 not in ("LEFT", "RIGHT"):
+    print("THAT WASN'T AN OPTION, CLUCKHEAD! TRY AGAIN!")
+    choice1 = input("LEFT OR RIGHT? ").strip().upper()
 if choice1 == "LEFT":
     print(r"""
           ///
@@ -66,23 +80,50 @@ if choice1 == "LEFT":
          \_  _/
            \ \
     """)
-    print("Look at you! TWO BRAIN CELLS AND THEY'RE BOTH WORKING! DON'T GET COCKY. YOU'RE NOT SAFE YET.")
-    input("Enter to continue.")
-    print("🤣🐔 ROUND 2: CORNFIELD CONFIDENTIAL — THE CLUCKENING!")
-    print(f"{user_name}, You've escaped Farmer Cletus and his deep fryer. Congratulations, you're officially smarter than a bucket of chicken.")
-    print("But now you're standing in the middle of a cornfield.")
-    print("Suddenly, the corn starts rustling. Something is watching you.")
-    print("Out steps a FOX wearing sunglasses, a cheap suit, and a name tag that reads:")
-    input("DUNDUNDUN, Press Enter")
-    print("""CHAD — CERTIFIED CHICKEN LIFE COACH.""")
-    print(f"""Chad smiles and says, "I've got an incredible opportunity for a chicken like you,{user_name}. All you need to do is trust me.""")
-    input("🤣, Press Enter")
-    print("You have TWO options:")
-    print("Follow Chad to his exclusive, invitation-only networking event on the Left. He's promised unlimited snacks and career advancement.")
-    print("Haul your cluckin' caboose through the cornfield on the Right before Chad starts explaining his multilevel marketing opportunity.")
-    print("WHAT'S YOUR NEXT POOR LIFE CHOICE? (TRUST/RUN)")
-    choice2 = input("Left or Right?").strip().upper()
 
+    print("\nLook at you! TWO BRAIN CELLS AND THEY'RE BOTH WORKING!")
+    print("DON'T GET COCKY. YOU'RE NOT SAFE YET.")
+
+    input("\nPRESS ENTER TO CONTINUE YOUR QUESTIONABLE EXISTENCE... ")
+
+    print("\n🤣🐔 ROUND 2: CORNFIELD CONFIDENTIAL - THE CLUCKENING!\n")
+
+    print(f"{user_name}, you've escaped Farmer Cletus and his deep fryer.")
+    print("Congratulations, you're officially smarter than a bucket of chicken.")
+
+    print("\nBut now you're standing in the middle of a cornfield.")
+    print("Suddenly, the corn starts rustling.")
+    print("Something is watching you...")
+
+    input("\nPRESS ENTER TO FIND OUT WHAT'S STALKING YOUR CLUCKIN' CABOOSE... ")
+
+    print("\nOut steps a FOX wearing sunglasses, a cheap suit,")
+    print("and a name tag that reads:")
+
+    input("\nDUN... DUN... DUUUUN! PRESS ENTER... ")
+
+    print("\nCHAD - CERTIFIED CHICKEN LIFE COACH. 🦊")
+
+    print(f'\nChad smiles and says, "I have an incredible opportunity for a chicken like you, {user_name}."')
+    print('"All you need to do is trust me."')
+
+    input("\nPRESS ENTER TO REVIEW YOUR QUESTIONABLE OPTIONS... ")
+
+    print("\nYOU HAVE TWO OPTIONS:\n")
+
+    print("LEFT: Follow Chad to his exclusive, invitation-only networking event.")
+    print("He's promised unlimited snacks and career advancement.\n")
+
+    print("RIGHT: Haul your cluckin' caboose through the cornfield")
+    print("before Chad starts explaining his multilevel marketing opportunity.\n")
+
+    print("WHAT'S YOUR NEXT POOR LIFE CHOICE? (LEFT/RIGHT)")
+
+    choice2 = input("CHOOSE NOW! ").strip().upper()
+    while choice2 not in ("LEFT", "RIGHT"):
+        print("THAT WASN'T AN OPTION, CLUCKHEAD! TRY AGAIN!")
+        choice2 = input("LEFT OR RIGHT? ").strip().upper()
+        
     if choice2 == "RIGHT":
         print(r"""
                ///
@@ -90,33 +131,48 @@ if choice1 == "LEFT":
               \_  _/
                 \ \
         """)
-        print("HOLY CLUCK! YOU ACTUALLY RECOGNIZED A SCAM!")
-        print("YOUR TWO REMAINING BRAIN CELLS DESERVE A PROMOTION!")
-        input("PRESS ENTER TO CONTINUE YOUR QUESTIONABLE EXISTENCE! ")
-        if choice2 == "RIGHT":
+        print("\nHOLY CLUCK! YOU ACTUALLY RECOGNIZED A SCAM!")
 
-            print("🐔 ROUND 3: HOT WINGS OR WINGING IT!")
-            print(f"{user_name}, YOU'VE ESCAPED FARMER CLETUS AND CHAD THE FOX.")
-            print("YOUR TWO REMAINING BRAIN CELLS ARE OFFICIALLY WORKING OVERTIME.")
-            input("PRESS ENTER TO QUESTION YOUR LIFE CHOICES! ")
+        input("\nPRESS ENTER TO COLLECT YOUR ACHIEVEMENT... ")
 
-            print("YOU STUMBLE UPON A LUXURY RESORT EXCLUSIVELY FOR CHICKENS.")
-            print("A SUSPICIOUSLY CHEERFUL ROOSTER NAMED CAPTAIN CLUCK OFFERS TWO COMPLIMENTARY ACTIVITIES.")
+        print("\nYOUR TWO REMAINING BRAIN CELLS DESERVE A PROMOTION!")
+        print("UNFORTUNATELY, NEITHER ONE IS QUALIFIED FOR MANAGEMENT.")
 
-            print("SAUNA to the LEFT:")
-            print("A LUXURIOUS 400-DEGREE RELAXATION CHAMBER COMPLETE WITH HERBS, BUTTER, AND GARLIC SEASONING.")
+        input("\nPRESS ENTER TO CONTINUE YOUR QUESTIONABLE EXISTENCE... ")
 
-            print("""Serenade of "I Believe I Can Fly" by R.Kelly and  flying lesson to the Right:""")
-            print("A CRASH COURSE IN AVIATION TAUGHT BY A PIGEON WITH THREE OUTSTANDING FAA VIOLATIONS.")
+        print("\n🐔 ROUND 3: HOT WINGS OR WINGING IT!\n")
 
-            print("WHAT'S IT GONNA BE, YOU FEATHERED MENACE? (SAUNA/FLY)")
-            choice3 = input("MAKE YOUR FINAL CLUCKIN' DECISION! LEFT OR RIGHT! ").strip().upper()
+        print(f"{user_name}, YOU'VE ESCAPED FARMER CLETUS AND CHAD THE FOX.")
+        print("YOUR TWO REMAINING BRAIN CELLS ARE OFFICIALLY WORKING OVERTIME.")
 
-            while choice3 not in ("RIGHT", "LEFT"):
-                print("THAT WASN'T AN OPTION, CLUCKHEAD! TRY AGAIN!")
-                choice3 = input("RIGHT OR LEFT? ").strip().upper()
+        input("\nPRESS ENTER TO QUESTION YOUR LIFE CHOICES... ")
 
-            if choice3 == "RIGHT":
+        print("\nYOU STUMBLE UPON A LUXURY RESORT EXCLUSIVELY FOR CHICKENS.")
+
+        print("\nA SUSPICIOUSLY CHEERFUL ROOSTER NAMED CAPTAIN CLUCK")
+        print("OFFERS YOU TWO COMPLIMENTARY ACTIVITIES.")
+
+        input("\nPRESS ENTER TO VIEW YOUR VACATION OPTIONS... ")
+
+        print("\nLEFT: THE LUXURY SAUNA.")
+        print("A 400-DEGREE RELAXATION CHAMBER COMPLETE WITH HERBS,")
+        print("BUTTER, AND COMPLIMENTARY GARLIC SEASONING.")
+
+        input("\nPRESS ENTER TO SEE WHAT COULD POSSIBLY BE BETTER... ")
+
+        print('\nRIGHT: A PRIVATE SERENADE OF "I BELIEVE I CAN FLY"')
+        print("FOLLOWED BY A FLYING LESSON.")
+        print("YOUR INSTRUCTOR? A PIGEON WITH THREE OUTSTANDING FAA VIOLATIONS.")
+
+        print("\nWHAT'S IT GONNA BE, YOU FEATHERED MENACE? (LEFT/RIGHT)")
+
+        choice3 = input("MAKE YOUR FINAL CLUCKIN' DECISION! ").strip().upper()
+        while choice3 not in ("LEFT", "RIGHT"):
+            print("THAT WASN'T AN OPTION, CLUCKHEAD! TRY AGAIN!")
+            choice3 = input("LEFT OR RIGHT? ").strip().upper()
+        
+
+        if choice3 == "RIGHT":
                 print(r"""
                        \  |  /
                     ___ \ | / ___
@@ -127,21 +183,57 @@ if choice1 == "LEFT":
                       ____/ /____
                      /___________\
                 """)
-                print(f"HOLY MOTHER OF CLUCK, {user_name}! YOU ACTUALLY DID IT!")
-                print("YOU'VE DEFIED GRAVITY, COMMON SENSE, AND THE ENTIRE POULTRY INDUSTRY!")
-                print("YOU ARE OFFICIALLY THE FIRST CHICKEN TO CLUCK AROUND AND FIND OUT AND LIVE TO TELL ABOUT IT!")
 
-                input("PRESS ENTER TO CLAIM YOUR QUESTIONABLE REWARD! ")
-                print("🎶 IIIIIII BELIEEEEEEEEEVE I CAN FLYYYYYYYYYYY! 🎶")
+                print(f"\nHOLY MOTHER OF CLUCK, {user_name}! YOU ACTUALLY DID IT!")
+                print("YOU'VE DEFIED GRAVITY, COMMON SENSE, AND THE ENTIRE POULTRY INDUSTRY!")
+
+                print("\nYOU ARE OFFICIALLY THE FIRST CHICKEN TO CLUCK AROUND")
+                print("AND FIND OUT... AND LIVE TO TELL ABOUT IT!")
+
+                input("\nPRESS ENTER TO CLAIM YOUR QUESTIONABLE REWARD... ")
+
+                print("\n🎶 IIIIIII BELIEEEEEEEEEVE I CAN FLYYYYYYYYYYY! 🎶")
                 print("🎤 *CAPTAIN CLUCK BELTS OUT THE HIGH NOTE*")
                 print("🐔 *SOMEWHERE, A PIGEON QUESTIONS HIS LIFE CHOICES*")
-                print("🏆 WINNER WINNER CHICKEN DINNER!")
-                print(f"{user_name}! PRIZE IS A LIFETIME SUPPLY OF CHICKEN NUGGETS!")
-                print("NOBODY SAID THEY WERE GOING TO BE YOUR NUGGETS.")
-                print("CONGRATULATIONS, YOU BEAUTIFUL FEATHERED MENACE! YOU WIN!")
 
-            else:
+                input("\nPRESS ENTER FOR YOUR GRAND PRIZE... ")
+
+                print("\n🏆 WINNER WINNER CHICKEN DINNER!")
+                print(f"\n{user_name}, YOUR PRIZE IS...")
+                print("A LIFETIME SUPPLY OF CHICKEN NUGGETS!")
+
+                input("\nPRESS ENTER TO READ THE FINE PRINT... ")
+
+                print("\nNOBODY SAID THEY WERE GOING TO BE YOUR NUGGETS.")
+
+                print("\nCONGRATULATIONS, YOU BEAUTIFUL FEATHERED MENACE! YOU WIN!")
+
+                input("\nPRESS ENTER TO WATCH YOUR CHICKEN CELEBRATE... ")
+
                 print(r"""
+                       \o/       \o/
+                        |         |
+                     <' \___/| <' \___/|
+                       \_  _/    \_  _/
+                        / /       \ \
+                     ________________
+                    |  CHICKEN NUGGIES |
+                    |__________________|
+                       (YUM! YUM!)
+                """)
+
+                print("\n*YOUR CHICKEN DANCES WHILE QUESTIONABLY EATING CHICKEN NUGGIES*")
+                print("IS THIS CANNIBALISM? WE'RE NOT ASKING QUESTIONS.")
+
+                input("\nPRESS ENTER TO END YOUR CLUCKIN' ADVENTURE... ")
+
+                print(f"\nTHANKS FOR PLAYING, {user_name}!")
+                print("CLUCK AROUND AND FIND OUT! 🐔")
+                print("GAME OVER, YOU BEAUTIFUL MOTHER CLUCKER!")
+
+
+        else:
+            print(r"""
                        _________
                       /         \
                      /  ROASTED  \
@@ -151,11 +243,26 @@ if choice1 == "LEFT":
                     |  (_______)  |
                      \___________/
                 """)
-                print(f"CONGRATULATIONS, {user_name}! YOU'VE ACHIEVED THE PERFECT GOLDEN-BROWN COMPLEXION!")
-                print("UNFORTUNATELY, YOU'RE ALSO TONIGHT'S DINNER SPECIAL.")
-                print("AT LEAST YOU FINALLY FOUND A WAY TO BE HOT!")
-                input("PRESS ENTER TO ACCEPT YOUR CRISPY DESTINY! ")
-                print("💀 GAME OVER, MOTHER CLUCKER! Tasty chicken Dinner")
+
+            print(f"\nCONGRATULATIONS, {user_name}!")
+            print("YOU'VE ACHIEVED THE PERFECT GOLDEN-BROWN COMPLEXION!")
+
+            input("\nPRESS ENTER TO DISCOVER YOUR SPA BENEFITS... ")
+
+            print("\nUNFORTUNATELY, YOU'RE ALSO TONIGHT'S DINNER SPECIAL.")
+            print("AT LEAST YOU FINALLY FOUND A WAY TO BE HOT!")
+
+            input("\nPRESS ENTER TO ACCEPT YOUR CRISPY DESTINY... ")
+
+            print("\n💀 GAME OVER, MOTHER CLUCKER!")
+            print("TONIGHT'S SPECIAL: EXTRA CRISPY CHICKEN DINNER!")
+
+            input("\nPRESS ENTER TO CLOSE THE KITCHEN... ")
+
+            print("\nTHANKS FOR PLAYING!")
+            print("YOUR COMPLAINT HAS BEEN FORWARDED TO THE XENNIAL HR DEPARTMENT.")
+            print("THEY'RE STILL LAUGHING.")
+
 
 
 
@@ -169,10 +276,33 @@ if choice1 == "LEFT":
             \___/
         """)
         print(f"CONGRATULATIONS, CLUCKHEAD! {user_name}!")
-        print("YOU'VE JOINED A FOX'S DINNER CLUB.")
-        print("UNFORTUNATELY, YOU'RE NOT A MEMBER. YOU'RE THE MAIN COURSE!")
-        input("PRESS ENTER TO ACCEPT YOUR PATHETIC FATE! ")
-        print("""What does the fox say "GAME OVER, MOTHER CLUCKER!""")
+        print("\nYOU'VE JOINED A FOX'S DINNER CLUB.")
+
+        input("\nPRESS ENTER TO DISCOVER YOUR MEMBERSHIP BENEFITS... ")
+
+        print("\nUNFORTUNATELY, YOU'RE NOT A MEMBER.")
+
+        input("\nPRESS ENTER... ")
+
+        print("\nYOU'RE THE MAIN COURSE!")
+
+        print("\nGAME OVER, MOTHER CLUCKER!")
+        input("\nPRESS ENTER TO FILE A COMPLAINT WITH HR... ")
+
+        print("\nXENNIAL HR DEPARTMENT")
+        print("COMPLAINT RECEIVED.")
+        print("COMPLAINT PRINTED.")
+        print("COMPLAINT PASSED AROUND THE BREAK ROOM.")
+        print("EVERYONE LAUGHED.")
+
+        input("\nPRESS ENTER TO VIEW YOUR CASE RESOLUTION... ")
+
+        print("\nCASE CLOSED.")
+        print("CAUSE OF DEATH: TRUSTING A FOX WITH A LINKEDIN PROFILE.")
+        print("OFFICIAL HR RESPONSE: SUCKS TO SUCK, MOTHER CLUCKER!")
+
+        input("\nPRESS ENTER TO END YOUR PATHETIC ADVENTURE... ")
+
 
 else:
     print(r"""
@@ -183,8 +313,27 @@ else:
            / /
          /  /
     """)
-    print("CONGRATULATIONS, CLUCKHEAD! YOU'VE BECOME A TWO-PIECE COMBO WITH A SIDE OF MASHED POTATOES. GAME OVER!")
-    input("PRESS ENTER TO ACCEPT YOUR PATHETIC FEATHERED FATE!\n")
-    print("GAME OVER, MOTHER CLUCKER!")
 
+    print("\nCONGRATULATIONS, CLUCKHEAD!")
+    print("YOU'VE BECOME A TWO-PIECE COMBO WITH A SIDE OF MASHED POTATOES!")
 
+    input("\nPRESS ENTER TO SEE WHAT YOU'VE WON... ")
+
+    print("\nA COMPLIMENTARY BISCUIT!")
+    print("UNFORTUNATELY, YOU'RE NOT THE CUSTOMER.")
+
+    input("\nPRESS ENTER TO ACCEPT YOUR FEATHERED FATE... ")
+
+    print("\n💀 GAME OVER, MOTHER CLUCKER!")
+
+    input("\nPRESS ENTER TO READ YOUR FINAL RECEIPT... ")
+
+    print("\nFARMER CLETUS'S FRY-DAY SPECIAL")
+    print("ONE EXTRA CRISPY CLUCKHEAD: $9.99")
+    print("MASHED POTATOES: INCLUDED")
+    print("COMMON SENSE: OUT OF STOCK")
+
+    print("\nTHANK YOU FOR YOUR SACRIFICE.")
+    print("YOUR CLUCKIN' CABOOSE WILL BE MISSED.")
+
+    input("\nPRESS ENTER TO CLOSE YOUR TAB... ")
